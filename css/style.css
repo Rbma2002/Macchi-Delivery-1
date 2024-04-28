@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    margin: 24px 0;
+    padding-top: 1em;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+main, footer, header { width: 100%; }
+
+
+h1, h2, h3, h4 {
+    color: rgb(21, 72, 55);
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 32px;
+    font-size: 9.37em;
+    line-height: 140px;
+
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    text-align: left;
+    font-size: 4em; 
+}
+
+h2,p {
+    width: 33.33;
+    margin-right: 32px;
+}
+
+p, a {
+    font-size: 1.25em;
+    font-weight: 200;
+    margin-bottom: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+a {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: rgb(33, 105, 81);
+    font-weight: 500;
+    border: 2px solid rgb(33, 105, 81);
+    padding: 0.5em 1em;
+}
+
+a:hover {
+    border-color: rgb(20, 57, 57);
+    background-color: rgb(20, 57, 57);
+    color: white;
+
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+section p {
+    width: 33.33%;
+    font-size: 1.25em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+
+}
+
+.fotos, div {
+    width: 83.33%;
+    margin: 0 auto;
+    display: flex;
+    margin-left: 32px;
+}
+
+div img {
+
+    width: 33.33%;
+    justify-content:center;
+    align-items: center;
+    margin: 0 3em 1em 0;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    border: 2px solid rgb(20, 57, 57);
+    
+}
+
+
+h3 { 
+    text-align: left;
+    font-size: 4em;
+    margin-bottom: 50px;
+}
+
+h4 {
+    width: 50%;
+    text-align: right;
+    font-size: 4em;
+    line-height: 50px;
+}
+
+#secondSection {
+    width: 100%;
+}
+
+#secondSection img{
+    margin: auto;
+    justify-content:center;
+    align-items: center;
+    width: 50%;
+    display: block;
+    border: 2px solid rgb(20, 57, 57);
+    margin-bottom: 100px;
+
+}
+
+#ThirdSection p {
+    
+    width: 60%;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.25em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+#ThirdSection img {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: rgb(20, 57, 57);
+    height: 200px;
+}
+
+@media(max-width:768px){
+    body{
+        font-size: 10px;
+    }
+}
